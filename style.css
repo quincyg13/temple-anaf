@@ -144,7 +144,7 @@ header #logo img
 
 	/*==========  Mobile First Method  ==========*/
 
-	/* Custom, iPhone Retina */ 
+	/* Custom, iPhone Retina
 	@media  screen and (min-width : 320px) {
 		#sidenbar_movil{
 		display: none;
@@ -153,12 +153,145 @@ header #logo img
 		display: none;
 	}
 	}
-
-	/* Small Devices, Tablets */
+	
+	Small Devices, Tablets
 	@media  screen and (min-width : 768px) {
 		#contenido{
 		position: relative;
-		width: 30%;
+		width: 32%;
+		float: left;
+	}
+	#contenido .item{
+		
+	}
+	#contenido .item:nth-child(odd){
+		display: block;
+		margin-right: 2%;
+	}
+	#contenido:nth-child(odd){
+		margin-right: 0;
+		background: red;
+	}
+	#cont-box{
+		margin-left: 1.5em;
+	}
+	#sidenbar_movil{
+		display: none;
+	}
+	#sidenbar_movil-right{
+		display: inline-block;
+		margin-right: 1.5em;
+	}
+	}
+	
+	
+	Medium Devices, Desktops
+	@media  screen and (min-width : 992px) {
+		#wrap{
+			margin: 2em auto;
+			width: 990px;
+			background: #fff;
+			position: relative;
+			display: block;
+		}
+		#contenido{
+			background: #fff;
+			position: relative;
+			width: 45%;
+			float: left;
+			margin-left: 0;
+		}
+		#contenido:nth-child(2){
+			margin-left: 2em;
+			margin-right: 0;
+		}
+		#contenido .datos_item{
+			font-size: 0.7em;
+		}
+		#mainbox{
+			background: #fff;
+		}
+		#cont-box{
+			width: 520px;
+			margin-left: 220px;
+			display: block;
+			overflow: hidden;
+			
+		}
+		#sidenbar_movil{
+		display: inline-block;
+		margin-left: 1.5em;
+		margin-right: 11px;
+	}
+	
+	}
+	
+	Large Devices, Wide Screens
+	@media  screen and (min-width : 1200px) {
+	
+	}
+	 */
+
+	 /* Custom, iPhone Retina  */
+	@media  screen and (min-width : 320px) {
+		nav ul li{
+			display: block;
+			padding-left: auto;
+			padding-right: auto;
+		}
+		#sidenbar_movil{
+		display: none;
+	}
+		#sidenbar_movil-right{
+			display: none;
+		}
+	}
+
+	/* Small Devices, Tablets */
+	@media  screen and (min-width : 768px) {
+		#sidenbar_movil{
+		display: none;
+	}
+	#sidenbar_movil-right{
+		display: none;
+	}
+		/* #contenido{
+		position: relative;
+		width: 32%;
+		float: left;
+			}
+			#contenido .item{
+		
+			}
+			#contenido .item:nth-child(odd){
+		display: block;
+		margin-right: 2%;
+			}
+			#contenido:nth-child(odd){
+		margin-right: 0;
+		background: red;
+			}
+			#cont-box{
+		margin-left: 1.5em;
+			}
+			#sidenbar_movil{
+		display: none;
+			}
+			#sidenbar_movil-right{
+		display: inline-block;
+		margin-right: 1.5em;
+			} */
+	}
+
+
+	/* Medium Devices, Desktops */
+	@media  screen and (min-width : 992px) {
+		nav ul li{
+			display: inline-block;
+		}
+		#contenido{
+		position: relative;
+		width: 32%;
 		float: left;
 	}
 	#contenido .item{
@@ -182,12 +315,8 @@ header #logo img
 		display: inline-block;
 		margin-right: 1.5em;
 	}
-	}
-
-	/* Medium Devices, Desktops */
-	@media  screen and (min-width : 992px) {
-		#wrap{
-			margin: 0 auto;
+		/* #wrap{
+			margin: 2em auto;
 			width: 990px;
 			background: #fff;
 			position: relative;
@@ -196,11 +325,17 @@ header #logo img
 		#contenido{
 			background: #fff;
 			position: relative;
-			width: 50%;
+			width: 45%;
 			float: left;
 			margin-left: 0;
 		}
-		
+		#contenido:nth-child(2){
+			margin-left: 2em;
+			margin-right: 0;
+		}
+		#contenido .datos_item{
+			font-size: 0.7em;
+		}
 		#mainbox{
 			background: #fff;
 		}
@@ -209,12 +344,53 @@ header #logo img
 			margin-left: 220px;
 			display: block;
 			overflow: hidden;
-			border: 1px solid red;
+			
 		}
+		#sidenbar_movil{
+		display: inline-block;
+		margin-left: 1.5em;
+		margin-right: 11px;
+			} */
 
 	}
 
 	/* Large Devices, Wide Screens */
 	@media  screen and (min-width : 1200px) {
+		#wrap{
+			margin: 2em auto;
+			width: 990px;
+			background: #fff;
+			position: relative;
+			display: block;
+		}
+		#contenido{
+			background: #fff;
+			position: relative;
+			width: 45%;
+			float: left;
+			margin-left: 0;
+		}
+		#contenido:nth-child(2){
+			margin-left: 2em;
+			margin-right: 0;
+		}
+		#contenido .datos_item{
+			font-size: 0.7em;
+		}
+		#mainbox{
+			background: #fff;
+		}
+		#cont-box{
+			width: 520px;
+			margin-left: 220px;
+			display: block;
+			overflow: hidden;
+			
+		}
+		#sidenbar_movil{
+		display: inline-block;
+		margin-left: 1.5em;
+		margin-right: 11px;
+	}
 
 	}
