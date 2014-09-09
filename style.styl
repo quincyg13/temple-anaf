@@ -1,0 +1,292 @@
+body
+
+	background #EEEEEE
+	font-family "Open Sans"
+	font-size 16px
+
+footer a
+	text-decoration none
+	font-weight bold
+	
+
+
+footer
+	margin-top 2em
+	width 100%
+	background #f5f5f5
+	color #737373
+	position relative
+	display inline-block
+	padding 0.5em 0
+	text-align center
+		
+
+header
+	background #fff
+	position relative
+	overflow hidden
+
+header figure
+	text-align center
+	margin 0.5em
+
+nav
+
+	background #336699
+	
+	position relative
+
+nav ul
+
+	margin 0
+	padding 0
+	
+
+nav ul li a
+	text-decoration none
+	color #fff
+	font-size 0.8em
+	padding 1em 1em
+	font-weight bold
+	display block
+	/* border-right: 1px solid gray; */
+	
+
+
+nav ul li
+	text-decoration none
+	display inline-block
+
+header #logo img
+
+	width 200px
+
+#contenido
+
+	margin 1em
+
+#contenido .item
+
+	background: #fff
+	padding 0.5em
+	position relative
+	border-bottom 2px solid #336699
+	border-radius 0.5em 0.5em 0.5em 0.5em
+	margin-bottom3em
+
+#contenido span
+	
+
+#contenido .item h2
+	margin 0
+
+#contenido .item .titulo-item
+	color #336699
+	
+
+#contenido .item .datos_item
+	margin-top 0.2em
+	position absolute
+	border-radius 0 0 0.5em 0.5em
+	top 100%
+	background: #fff
+	width 90%
+	left 5%
+	padding 0.2em 0.5em
+
+#contenido .item  .datos_item .time_item
+	color #336699
+	padding 0 0.5em
+
+#contenido .item  .datos_item  .socio_item
+	float right
+	font-weight bold
+	color #5D5D70
+
+#contenido .seccion-item
+	color: #336699
+	border-bottom: 2px solid #336699
+	display block
+	padding-bottom: 0.2em
+	padding-left 0.5em
+	margin-bottom 0.5em
+	font-weight bold
+
+#sidenbar_movil
+	width 200px
+	height 300px
+	background #336699
+	position relative
+	float left
+	
+	margin-top: 1em;
+
+#sidenbar_movil-right
+	width 200px
+	height 300px
+	background #336699
+	position relative
+	float right
+	margin-top 1em
+
+.sidenbar
+	width: 200px
+	display block
+	overflow hidden
+
+	@media  screen and (min-width : 320px) 
+		nav ul li
+			display block
+			padding-left auto
+			padding-right auto
+		
+		#sidenbar_movil
+		display none
+	
+		#sidenbar_movil-right
+			display none
+		
+	
+
+	/* Small Devices, Tablets */
+	@media  screen and (min-width : 768px) 
+		#sidenbar_movil
+		display none
+	
+		#sidenbar_movil-right
+			display none
+	
+		/* #contenido{
+		position: relative;
+		width: 32%;
+		float: left;
+			}
+			#contenido .item{
+		
+			}
+			#contenido .item:nth-child(odd){
+		display: block;
+		margin-right: 2%;
+			}
+			#contenido:nth-child(odd){
+		margin-right: 0;
+		background: red;
+			}
+			#cont-box{
+		margin-left: 1.5em;
+			}
+			#sidenbar_movil{
+		display: none;
+			}
+			#sidenbar_movil-right{
+		display: inline-block;
+		margin-right: 1.5em;
+			} */
+	
+
+
+	/* Medium Devices, Desktops */
+	@media  screen and (min-width : 992px) 
+		nav ul li
+			display: inline-block
+		
+		#contenido
+		position relative
+		width 32%
+		float left
+	
+		#contenido .item
+			
+		
+		#contenido .item:nth-child(odd)
+			display block
+			margin-right 2%
+		
+		#contenido:nth-child(odd)
+			margin-right 0
+			/* background: red; */
+		
+		#cont-box
+			margin-left 1.5em
+		
+		#sidenbar_movil
+			display none
+		
+		#sidenbar_movil-right
+			display inline-block
+			margin-right 1.5em
+	
+		/* #wrap{
+			margin: 2em auto;
+			width: 990px;
+			background: #fff;
+			position: relative;
+			display: block;
+		}
+		#contenido{
+			background: #fff;
+			position: relative;
+			width: 45%;
+			float: left;
+			margin-left: 0;
+		}
+		#contenido:nth-child(2){
+			margin-left: 2em;
+			margin-right: 0;
+		}
+		#contenido .datos_item{
+			font-size: 0.7em;
+		}
+		#mainbox{
+			background: #fff;
+		}
+		#cont-box{
+			width: 520px;
+			margin-left: 220px;
+			display: block;
+			overflow: hidden;
+			
+		}
+		#sidenbar_movil{
+		display: inline-block;
+		margin-left: 1.5em;
+		margin-right: 11px;
+			} */
+
+	/* Large Devices, Wide Screens */
+	@media  screen and (min-width : 1200px) 
+			#wrap
+				margin 2em auto
+				width 990px
+				background #fff
+				position relative
+				display block
+			
+			#contenido
+				background #fff
+				position: relative
+				width 45%
+				float left
+				margin-left 0
+			
+			#contenido:nth-child(2)
+				margin-left 2em
+				margin-right 0
+			
+			#contenido .datos_item
+				font-size 0.7em
+			
+			#mainbox
+				background #fff
+			
+			#cont-box
+				width 520px
+				margin-left 220px
+				display block
+				overflow hidden
+				
+			
+			#sidenbar_movil
+				display inline-block
+				margin-left 1.5em
+				margin-right 11px

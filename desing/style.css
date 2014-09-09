@@ -381,10 +381,10 @@ header #logo img
 			background: #fff;
 		}
 		#cont-box{
-			display: block;
-			margin-left: 220px;
-			overflow: hidden;
 			width: 520px;
+			margin-left: 220px;
+			display: block;
+			overflow: hidden;
 			
 		}
 		#sidenbar_movil{
